@@ -6,7 +6,8 @@ private void button1_Click(object sender, EventArgs e)
   listBox1.Items.Clear();
   OleDbCommand komut = new OleDbCommand("Select * from Kisiler", baglan);
   OleDbDataReader oku = komut.ExecuteReader();
-  while (oku.Read()) {
+  while (oku.Read()) 
+  {
     listBox1.Items.Add(
     oku["ID"] + "-" + 
     oku["AD"] + " " + 
