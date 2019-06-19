@@ -1,5 +1,4 @@
-# C-Sharp-Nots
+# My C# Nots
 
-C Sharp Notlarım
+Button Image doesnt exist the strecth
 
-Button image de stretch yok
